@@ -43,6 +43,10 @@ npm start
 
 ## API Documentation
 
+### Environment variables
+![Screenshot 2025-02-15 213935](https://github.com/user-attachments/assets/ef4d673b-b4a8-41f2-b775-d73269d7ff59)
+
+
 ### Authentication
 
 #### Register
@@ -57,6 +61,9 @@ Content-Type: application/json
     "role": "admin"
 }
 ```
+![Screenshot 2025-02-15 215802](https://github.com/user-attachments/assets/09c8be07-1479-4f21-888e-9007a6f2a70b)
+
+
 
 #### Login
 ```http
@@ -68,24 +75,7 @@ Content-Type: application/json
     "password": "Password@123"
 }
 ```
-
-### Patients
-
-#### Create Patient
-```http
-POST /api/v1/patients
-Authorization: Bearer <token>
-Content-Type: application/json
-
-{
-    "name": "John Doe",
-    "age": 30,
-    "gender": "Male",
-    "phone": "1234567890",
-    "address": "123 Main St",
-    "bloodGroup": "O+"
-}
-```
+![Screenshot 2025-02-15 213615](https://github.com/user-attachments/assets/d6c812b5-dc34-4f78-9735-629e19b70405)
 
 ### Doctors
 
@@ -104,6 +94,35 @@ Content-Type: application/json
     "address": "456 Medical Center"
 }
 ```
+![Screenshot 2025-02-15 213957](https://github.com/user-attachments/assets/283f33b0-d098-4594-87cc-f37f4f578940)
+
+#### Get Doctor
+![Screenshot 2025-02-15 214056](https://github.com/user-attachments/assets/fb00be6a-c071-4282-b638-fb42ee65045f)
+
+#### Update Doctor
+![Screenshot 2025-02-15 214449](https://github.com/user-attachments/assets/8dc975f4-1c84-457c-bda9-cbbcb7e8291b)
+
+#### Delete Doctor
+![Screenshot 2025-02-15 214518](https://github.com/user-attachments/assets/35587b04-cc37-4376-9b22-c90b9600953a)
+
+### Patients
+
+#### Create Patient
+```http
+POST /api/v1/patients
+Authorization: Bearer <token>
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "age": 30,
+    "gender": "Male",
+    "phone": "1234567890",
+    "address": "123 Main St",
+    "bloodGroup": "O+"
+}
+```
+![Screenshot 2025-02-15 214124](https://github.com/user-attachments/assets/88d811ac-1500-427b-bcca-a27daba2bf2b)
 
 ### Mappings
 
@@ -119,6 +138,7 @@ Content-Type: application/json
     "notes": "Regular checkup"
 }
 ```
+![Screenshot 2025-02-15 214249](https://github.com/user-attachments/assets/2a746362-7d22-47b0-848b-317fa6502dad)
 
 ## Contributing
 
