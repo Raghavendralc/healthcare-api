@@ -14,13 +14,10 @@ npm-debug.log*
 pids
 *.pid
 *.seed
-*.pid.lock
 
 # IDE
 .idea/
 .vscode/
-*.swp
-*.swo
 
 # OS
 .DS_Store
